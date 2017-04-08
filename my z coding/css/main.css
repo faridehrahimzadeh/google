@@ -1,0 +1,30 @@
+.z-box-1 {
+  background-color: teal;
+  height: 50px;
+  text-align: right;
+  width: 50px;
+
+  position: relative;
+  top: -70px;
+}
+.z-box-2 {
+  background-color: yellow;
+  height: 50px;
+  text-align: right;
+  width: 50px;
+
+  position: relative;
+  left: 20px;
+  z-index: 1;
+}
+.z-box-3 {
+  background-color: pink;
+  height: 50px;
+  text-align: right;
+  width: 50px;
+
+  position: relative;
+  left: 35px;
+  top: 70px;
+  z-index: 2;
+}
